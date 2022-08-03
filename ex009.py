@@ -8,4 +8,3 @@ euro = valor/5.37
 print(f'Valor em dólar: ${round(dolar,2)}.')
 print(f'Valor em euro: €{round(euro,2)}.')
 
-#Ainda não sei como restringir a quantidade de casas decimais nesse formato de print
