@@ -1,1 +1,1 @@
-Exercícios básicos em Python para aprender a linguagem
+Exercícios básicos e lembretes em Python para aprender a linguagem :)
