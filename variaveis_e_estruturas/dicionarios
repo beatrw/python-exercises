@@ -1,0 +1,39 @@
+#Estudando dicionários
+# > Mapeamento de chaves e valores / aceitam diferentes tipos de dados
+
+dicionari = {'Bibi':22,'Lala':2, 'Kaka':53}
+print(dicionari)
+print(dicionari['Bibi'])
+
+#Adicionando novo
+dicionari['Bla'] = 75
+print(dicionari)
+
+#Limpando o dicionario
+dicionari.clear()
+print(dicionari)
+
+#Excluindo o dicionario
+del dicionari
+#print(dicionari)
+
+#Algumas operações
+estudantes = {'gdfdk': 43, 'lalala':53, 'cacaca':20}
+print(estudantes)
+print(len(estudantes))
+print(estudantes.keys())
+print(estudantes.values())
+print(estudantes.items())
+
+#Inserção/concatenação de dicionarios
+estudantes2 = {'joao': 54, 'maria':30}
+estudantes.update(estudantes2)
+print(estudantes)
+
+#Dicionario de listas
+dicl = {'valor1': 5, 'lista':[1, 5, 9], 'lista2':['aa', 'bb', 'cc']}
+print(dicl)
+print(dicl['lista'])
+#Acessando item da lista dentro do dicionario
+print(dicl['lista2'][2])
+print(dicl['lista2'][1].upper())
