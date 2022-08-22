@@ -1,0 +1,19 @@
+#Estudando funções
+def funcPrint():
+    print('Olár')
+
+funcPrint()
+
+#Com parâmetro
+def funcBibi(nome):
+    print(f'Olá, {nome}')
+
+funcBibi('Bibi')
+
+#Somando números
+def funcSoma(num1, num2):
+    print(f'Primeiro número: {num1}')
+    print(f'Segundo número: {num2}')
+    print(f'Soma = ', num1+num2)
+
+funcSoma(5,5)
