@@ -15,7 +15,7 @@ db = conex.cadastrodb
 #Criando collection(que é tipo tabela)
 collection = db.cadastrodb
 
-#Inserindo elementos
+#Inserindo doc 
 post1 = {"codigo": "ID- 123", 
         "prod_name": "Mouse",
         "marca": "logitech",

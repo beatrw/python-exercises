@@ -1,4 +1,4 @@
-#Usando funções para trabalhar com banco de dados
+#Usando funções para manipulação de banco de dados
 
 import sqlite3
 import os
@@ -71,6 +71,7 @@ def graf():
     for linha in dados:
         ids.append(linha[0])
         valores.append(linha[1])
+    #Criando um gráfico de barras - ele só n vai mostrar aqui(n sei pq tbkk)
     plt.bar(ids, valores)
     plt.show
 
@@ -91,8 +92,7 @@ mostrar_tudo()
 
 update()
 mostrar_tudo()
-
-print(graf())
+graf()
 
 #Encerrando conexão
 fech_conex()
